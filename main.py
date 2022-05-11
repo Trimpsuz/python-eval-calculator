@@ -1,9 +1,14 @@
 #Import
 from math import *
 import re
+from os import system
+
 
 #Store answer
 ans = 0
+
+#Set window title
+system("title " + "Python Eval Calculator")
 
 #Commandline Colors
 class bcolors:
