@@ -87,4 +87,4 @@ while True:
     except ValueError:
         print(f"{bcolors.FAIL}Math Error{bcolors.ENDC}")
     except:
-        print(f"{bcolors.FAIL}Syntax Error{bcolors.ENDC}")
+        print(f"{bcolors.FAIL}Syntax Error, {bcolors.BOLD}Try \"help\"{bcolors.ENDC}")
